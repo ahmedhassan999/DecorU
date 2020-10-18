@@ -1,0 +1,26 @@
+.servicesDetails-section{
+    .servicesDetails-container{
+        .servicesDetails-row{
+            position: relative;
+            text-align: center;
+
+            &::after{
+                content: 'Our Services';
+                position: absolute;
+                top: 9rem !important;
+                left: -15rem;
+                font-size: 50px;
+                color: $forth-color;
+                transform: rotate(-90deg);
+            }
+
+            .col-md-6{
+                margin-top: 3rem!important;
+            }
+
+            h4{
+                color: $third-color;
+            }
+        }
+    }
+}
